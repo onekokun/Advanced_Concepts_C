@@ -27,7 +27,7 @@ public class solution
 		addEdge(adj,6,13);
 		
 		dfs(0,0);
-		System.out.print(dp[0]);
+		System.out.print(dp[0]-1);
 		
 	}
 	
